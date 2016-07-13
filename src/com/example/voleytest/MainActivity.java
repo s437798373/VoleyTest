@@ -38,6 +38,7 @@ public class MainActivity extends Activity {
 		mQueue = Volley.newRequestQueue(MainActivity.this);
 		// getData("https://route.showapi.com/9-7?area=%E6%B7%B1%E5%9C%B3&areaid=&month=201601&showapi_appid=13168&showapi_timestamp=20160620154315&showapi_sign=337cbb029bce20eaac3df79ac5680dca");
 		BaiDuMap();
+		System.out.println("-----------");
 	}
 	//判断是否安装了百度i
 	private boolean isInstallByread(String packageName) {   
